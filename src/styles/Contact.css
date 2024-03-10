@@ -1,0 +1,47 @@
+.contact-section {
+    padding: 100px 0;
+    /* background-color: #f9f9f9; */
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-list i {
+    margin-right: 10px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px 30px;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .contact-section {
+        padding: 50px 0;
+    }
+}
